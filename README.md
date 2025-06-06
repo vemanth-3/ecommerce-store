@@ -10,7 +10,7 @@
 - Smooth scroll and animation
 
 ## Demo
-🎥 See a screen recording on my LinkedIn: [LinkedIn Profile](https://linkedin.com/in/yourprofile)
+🎥 See a screen recording on my LinkedIn: [LinkedIn Profile]((https://www.linkedin.com/in/vemanthkumar-k-04024529b/))
 
 ---
 

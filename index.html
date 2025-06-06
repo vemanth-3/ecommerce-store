@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Premium eCommerce Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">Levi's Collection</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <a href="#" id="cart-link"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+      </div>
+      <div class="mobile-menu-icon">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Premium Collections Just for You</h1>
+    <div class="hero-bottom">
+      <p>Discover the latest trends in fashion with exclusive offers</p>
+      <a href="#shop" class="btn-primary" id="shop-now-btn">Shop Now</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Products Section -->
+  <section id="shop" class="products">
+    <div class="container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="product-grid" id="product-grid">
+        <!-- Products will be generated here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <p>We're dedicated to bringing you the highest quality products with exceptional customer service.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us Levi'sIndia@gmail.com</h2>
+      <p>Have questions? Reach out to our customer support team +1233642099.</p>
+    </div>
+  </section>
+
+  <!-- Cart Preview -->
+  <div id="cart-preview" class="cart-preview">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button id="close-cart"><i class="fas fa-times"></i></button>
+    </div>
+    <ul id="cart-items"></ul>
+    <div class="cart-footer">
+      <p id="cart-total"><strong>Total: $0.00</strong></p>
+      <button id="checkout-btn" class="btn-primary">Checkout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

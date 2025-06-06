@@ -1,16 +1,24 @@
-# Premium eCommerce Store
+# 🛒 Premium eCommerce Store
 
-🛍️ A responsive eCommerce store UI built using HTML, CSS, and JavaScript.
+A modern and responsive **eCommerce website** UI built using **HTML**, **CSS**, and **JavaScript (Vanilla)**. This project showcases a functional product catalog with dynamic cart functionality — perfect for frontend development demonstration.
 
-## Features
-- Product grid with images and pricing
-- Add to cart with quantity update
-- Live cart preview and total calculation
-- Fully responsive layout
-- Smooth scroll and animation
+---
 
-## Demo
-🎥 See a screen recording on my LinkedIn: [LinkedIn Profile]((https://www.linkedin.com/in/vemanthkumar-k-04024529b/))
+## 🚀 Features
+
+- 🖼️ Product grid with images, names, and prices
+- 🛒 Add to Cart, Remove, and Quantity Update
+- 🧮 Real-time total price calculation
+- 📱 Fully responsive layout (mobile-friendly)
+- 🎯 Smooth scroll and elegant hover effects
+- 💾 Cart data stored using `localStorage`
+
+---
+
+## 📸 Demo
+
+🎥 A screen recording of this project is available on my LinkedIn profile:  
+🔗 [Vemanthkumar K on LinkedIn](https://www.linkedin.com/in/vemanthkumar-k-04024529b/)
 
 ---
 
@@ -21,5 +29,18 @@
 
 ---
 
-## Author
-👨‍💻 [K Vemanthkumar](www.linkedin.com/in/vemanthkumar-k-04024529b)
+
+---
+
+## 🙋‍♂️ Author
+
+👨‍💻 [Vemanthkumar K](https://www.linkedin.com/in/vemanthkumar-k-04024529b/)
+
+Feel free to connect with me on LinkedIn for feedback or collaboration opportunities!
+
+---
+
+## 🔖 License
+
+This project is free to use and modify for educational purposes.
+
